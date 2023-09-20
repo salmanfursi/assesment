@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Center the beer cards */
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Style each beer card */
+.beer-card {
+  width: 300px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.beer-card img {
+  max-width: 100%;
+  max-height: 200px; /* Adjust the image height as needed */
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.beer-card h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.beer-card p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Add hover effect to cards */
+.beer-card:hover {
+  transform: scale(1.05);
+}
+
+/* Style the search input */
+
+.search {
+  padding: 12px;
+  margin: 14px;
+  margin-left: 35%;
+  width: 300px;
+}
